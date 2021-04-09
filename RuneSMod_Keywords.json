@@ -1,0 +1,147 @@
+{
+  "keywords": [
+    {
+      "PROPER_NAME": "Enhance",
+      "NAMES": [
+        "enhance",
+        "enhanced",
+        "enhancement"
+      ],
+      "DESCRIPTION": "Increase damage, #yBlock and #yPotency of a card by #b50%. Can be stacked additively. #yEnhance is removed after the card is played."
+    },
+    {
+      "PROPER_NAME": "Downgrade",
+      "NAMES": [
+        "downgrade",
+        "downgraded"
+      ],
+      "DESCRIPTION": "Remove one level of #yUpgrade and any #yEnhance or #yStasis from a card."
+    },
+    {
+      "PROPER_NAME": "Stasis",
+      "NAMES": [
+        "stasis"
+      ],
+      "DESCRIPTION": "Prevent a card from losing #yEnhancement when played once."
+    },
+    {
+      "PROPER_NAME": "Potency",
+      "NAMES": [
+        "potency"
+      ],
+      "DESCRIPTION": "Potency is the power of a Rune when it is #yCrafted."
+    },
+    {
+      "PROPER_NAME": "Craft",
+      "NAMES": [
+        "craft",
+        "crafted",
+        "crafting"
+      ],
+      "DESCRIPTION": "Create a Rune using #yElements. If the Rune cannot be crafted, gain that many #yElements instead. You can have no more than #b7 active Runes."
+    },
+    {
+      "PROPER_NAME": "Elements",
+      "NAMES": [
+        "elements",
+        "element",
+        "ignis",
+        "terra",
+        "aqua"
+      ],
+      "DESCRIPTION": "Elements (Ignis, Terra and Aqua) are spent to #yCraft Runes and are used for other utilities."
+    },
+    {
+      "PROPER_NAME": "Break",
+      "NAMES": [
+        "break",
+        "broken"
+      ],
+      "DESCRIPTION": "Destroy a Rune and activate its effect twice. Power-based effects will be removed before the start of your next turn."
+    },
+    {
+      "PROPER_NAME": "Incendium",
+      "NAMES": [
+        "incendium"
+      ],
+      "DESCRIPTION": "Rune: Deals damage to ALL enemies."
+    },
+    {
+      "PROPER_NAME": "Firestone",
+      "NAMES": [
+        "firestone"
+      ],
+      "DESCRIPTION": "Rune: Deals damage to random enemies."
+    },
+    {
+      "PROPER_NAME": "Protectio",
+      "NAMES": [
+        "protectio"
+      ],
+      "DESCRIPTION": "Rune: Gain #yBlock."
+    },
+    {
+      "PROPER_NAME": "Spiculum",
+      "NAMES": [
+        "spiculum"
+      ],
+      "DESCRIPTION": "Rune: Gain #yThorns."
+    },
+    {
+      "PROPER_NAME": "Potentia",
+      "NAMES": [
+        "potentia"
+      ],
+      "DESCRIPTION": "Rune: Gain #yPotency"
+    },
+    {
+      "PROPER_NAME": "Medicinae",
+      "NAMES": [
+        "medicinae"
+      ],
+      "DESCRIPTION": "Rune: Heals on #yBreak or at the end of combat."
+    },
+    {
+      "PROPER_NAME": "Dud",
+      "NAMES": [
+        "dud"
+      ],
+      "DESCRIPTION": "Rune: No effect."
+    },
+    {
+      "PROPER_NAME": "Magma",
+      "NAMES": [
+        "magma"
+      ],
+      "DESCRIPTION": "Rune: Deals damage to random enemy and gain Block."
+    },
+    {
+      "PROPER_NAME": "Decay",
+      "NAMES": [
+        "decay"
+      ],
+      "DESCRIPTION": "Lose all selected #yElement then gain other #yElements equals to the amount lost and perform certain action depending on the #yElement chosen."
+    },
+    {
+      "PROPER_NAME": "Obretio",
+      "NAMES": [
+        "obretio"
+      ],
+      "DESCRIPTION": "Rune: Reduces an enemy #yStrength for a turn."
+    },
+    {
+      "PROPER_NAME": "Ice-Cold",
+      "NAMES": [
+        "ice-cold"
+      ],
+      "DESCRIPTION": "Decrease attack damage by #b1 per stack. Stack is reduced by #b1 at the end of turn. NL Remove #ySlow when stack reaches #b0."
+    },
+    {
+      "PROPER_NAME": "Vitae",
+      "NAMES": [
+        "vitae"
+      ],
+      "DESCRIPTION": "Rune: Lose #yPotency of the Rune instead of HP."
+    }
+  ]
+}

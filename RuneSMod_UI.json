@@ -1,0 +1,96 @@
+{
+  "Runesmith:FortifyAction": {
+    "TEXT": [
+      "Enhance"
+    ]
+  },
+  "Runesmith:DowngradeAction": {
+    "TEXT": [
+      "Downgrade"
+    ]
+  },
+  "Runesmith:StasisAction": {
+    "TEXT": [
+      "Stasis"
+    ]
+  },
+  "Runesmith:CardEnhanced": {
+    "TEXT": [
+      "runesmith:Enhanced",
+      "Enhanced"
+    ]
+  },
+  "Runesmith:CardStasis": {
+    "TEXT": [
+      "runesmith:Stasis"
+    ]
+  },
+  "Runesmith:DoubleUpAction": {
+    "TEXT": [
+      "Upgrade and Enhance"
+    ]
+  },
+  "Runesmith:StasisCardInDeckAction": {
+    "TEXT": [
+      "Stasis a Card"
+    ]
+  },
+  "Runesmith:IgnisElement": {
+    "TEXT": [
+      "Ignis",
+      "Your current #yIgnis count. NL Can be spent to craft runes."
+    ]
+  },
+  "Runesmith:TerraElement": {
+    "TEXT": [
+      "Terra",
+      "Your current #yTerra count. NL Can be spent to craft runes."
+    ]
+  },
+  "Runesmith:AquaElement": {
+    "TEXT": [
+      "Aqua",
+      "Your current #yAqua count. NL Can be spent to craft runes."
+    ]
+  },
+  "Runesmith:CraftPrismatica": {
+    "TEXT": [
+      "Prismatica",
+      "Prismatica+",
+      "Rune: Add a random class card to your hand at the start of your turn. The card costs 0 for the turn.",
+      "Rune: Add a random upgraded class card to your hand at the start of your turn. The card costs 0 for the turn."
+    ]
+  },
+  "Runesmith:CraftReservo": {
+    "TEXT": [
+      "Reservo",
+      "Reservo+",
+      "Rune: #yRetain a card.",
+      "Rune: #yRetain 2 cards."
+    ]
+  },
+  "Runesmith:CraftIndustria": {
+    "TEXT": [
+      "Industria",
+      "Industria+",
+      "Rune: Gain [E] at the start of your turn.",
+      "Rune: Gain [E] and draw 1 card at the start of your turn."
+    ]
+  },
+  "Runesmith:Craftable": {
+    "TEXT": [
+      "Craftable"
+    ]
+  },
+  "Runesmith:ShiftingStrike": {
+    "TEXT": [
+      "remove Enhancement",
+      "add Enhancement"
+    ]
+  },
+  "Runesmith:OptionsMenu": {
+    "TEXT": [
+      "Enable Runesmith relics in non-Runesmith classes."
+    ]
+  }
+}
