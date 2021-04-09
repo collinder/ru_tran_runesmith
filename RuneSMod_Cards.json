@@ -1,15 +1,15 @@
 {
   "Runesmith:Strike_RS": {
-    "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! damage."
+    "NAME": "Удар",
+    "DESCRIPTION": "Наносит !D! урона."
   },
   "Runesmith:Defend_RS": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
+    "NAME": "Оборона",
+    "DESCRIPTION": "Даёт !B! Защиты."
   },
   "Runesmith:CraftFirestone": {
-    "NAME": "Craft Firestone",
-    "DESCRIPTION": "1 runesmith:Ignis: runesmith:Craft a runesmith:Firestone Rune with !RS:Pot! runesmith:Potency."
+    "NAME": "Создать огнекамень",
+    "DESCRIPTION": "1 runesmith:Игнис: runesmith:Создать runesmith:Огнекамень Rune with !RS:Pot! runesmith:Potency."
   },
   "Runesmith:CraftProtectio": {
     "NAME": "Craft Protectio",
