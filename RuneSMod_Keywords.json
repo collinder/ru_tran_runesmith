@@ -1,55 +1,56 @@
 {
   "keywords": [
     {
-      "PROPER_NAME": "Enhance",
+      "PROPER_NAME": "Усиливает",
       "NAMES": [
-        "enhance",
-        "enhanced",
-        "enhancement"
+        "усиливает",
+        "усиленные",
+        "усиления"
       ],
-      "DESCRIPTION": "Increase damage, #yBlock and #yPotency of a card by #b50%. Can be stacked additively. #yEnhance is removed after the card is played."
+      "DESCRIPTION": "Увеличивает урон, #yЗащиту и #yМощь карту на #b50%. Складывается аддитивно. #yУсиление убирается с карты после её разыгрывания."
     },
     {
-      "PROPER_NAME": "Downgrade",
+      "PROPER_NAME": "Ухудшает",
       "NAMES": [
-        "downgrade",
-        "downgraded"
+        "ухудшает",
+        "ухудшенная"
       ],
-      "DESCRIPTION": "Remove one level of #yUpgrade and any #yEnhance or #yStasis from a card."
+      "DESCRIPTION": "Убирает один уровень #yУлучшения и все #yУсиления или #yСтазис с карты."
     },
     {
-      "PROPER_NAME": "Stasis",
+      "PROPER_NAME": "Стазис",
       "NAMES": [
-        "stasis"
+        "стазис"
       ],
       "DESCRIPTION": "Prevent a card from losing #yEnhancement when played once."
     },
     {
-      "PROPER_NAME": "Potency",
+      "PROPER_NAME": "Мощь",
       "NAMES": [
-        "potency"
+          "мощи",
+	  "мощью"
       ],
-      "DESCRIPTION": "Potency is the power of a Rune when it is #yCrafted."
+      "DESCRIPTION": "Мощь - это сила Руны при её #yСоздании."
     },
     {
-      "PROPER_NAME": "Craft",
+      "PROPER_NAME": "Создание",
       "NAMES": [
-        "craft",
-        "crafted",
-        "crafting"
+        "создать",
+        "создания",
+        "создании"
       ],
-      "DESCRIPTION": "Create a Rune using #yElements. If the Rune cannot be crafted, gain that many #yElements instead. You can have no more than #b7 active Runes."
+      "DESCRIPTION": "Создать Руну, используя #yЭлементы. Если Руну не создать, получить вместо этого требуемые для создания #yЭлементы. Вы не можете иметь больше #b7 активных Рун."
     },
     {
-      "PROPER_NAME": "Elements",
+      "PROPER_NAME": "Элементы",
       "NAMES": [
-        "elements",
-        "element",
-        "ignis",
-        "terra",
-        "aqua"
+        "элементы",
+        "элемент",
+        "игнис",
+        "терра",
+        "аква"
       ],
-      "DESCRIPTION": "Elements (Ignis, Terra and Aqua) are spent to #yCraft Runes and are used for other utilities."
+      "DESCRIPTION": "Элементы (Игнис, Терра и Аква) тратятся для #yСоздания Рун или могут использоваться по-другому."
     },
     {
       "PROPER_NAME": "Break",
@@ -67,11 +68,11 @@
       "DESCRIPTION": "Rune: Deals damage to ALL enemies."
     },
     {
-      "PROPER_NAME": "Firestone",
+      "PROPER_NAME": "Огнекамень",
       "NAMES": [
-        "firestone"
+        "огнекамень"
       ],
-      "DESCRIPTION": "Rune: Deals damage to random enemies."
+      "DESCRIPTION": "Руна: Наносит урон случ. врагам."
     },
     {
       "PROPER_NAME": "Protectio",
@@ -109,11 +110,11 @@
       "DESCRIPTION": "Rune: No effect."
     },
     {
-      "PROPER_NAME": "Magma",
+      "PROPER_NAME": "Магма",
       "NAMES": [
-        "magma"
+        "магма"
       ],
-      "DESCRIPTION": "Rune: Deals damage to random enemy and gain Block."
+      "DESCRIPTION": "Руна: Наносит урон случ. врагу и даёт Защиту."
     },
     {
       "PROPER_NAME": "Decay",

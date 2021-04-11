@@ -7,17 +7,17 @@
     ]
   },
   "Runesmith:MiniCore": {
-    "NAME": "Minicore",
+    "NAME": "Миниядро",
     "FLAVOR": "This peculiar orb was once used as an energy storage.",
     "DESCRIPTIONS": [
-      "Gain 1 #yrunesmith:Potency at the start of the combat."
+      "Даёт 1 #yrunesmith:Мощи в начале боя."
     ]
   },
   "Runesmith:Nanobots": {
-    "NAME": "Nanobots",
+    "NAME": "Наноботы",
     "FLAVOR": "\"These tiny machines have wondrous properties.\" -Ranwid",
     "DESCRIPTIONS": [
-      "At the start of combat, #yrunesmith:Enhance all cards in your hand."
+      "At the start of combat, #yrunesmith:Усиливает все карты в руке в начале боя."
     ]
   },
   "Runesmith:UraniumAnvil": {
@@ -36,8 +36,8 @@
     ]
   },
   "Runesmith:AutoHammer": {
-    "NAME": "AutoHammer",
-    "FLAVOR": "An automatic hammer which never stops hammering.",
+    "NAME": "Автомолот",
+    "FLAVOR": "Автоматический молот, никогда не  which never stops hammering.",
     "DESCRIPTIONS": [
       "Every time you play #b3 #ySkills in #b1 turn, #yrunesmith:Enhance a random card in your hand."
     ]
@@ -50,10 +50,10 @@
     ]
   },
   "Runesmith:PocketReactor": {
-    "NAME": "Pocket Reactor",
-    "FLAVOR": "Atomic power anytime, anywhere.",
+    "NAME": "Карманный реактор",
+    "FLAVOR": "Сила атома когда угодно, где угодно.",
     "DESCRIPTIONS": [
-      "#yrunesmith:Elements are no longer needed for crafting. All cards lose #b2 #yrunesmith:Potency. "
+      "#yrunesmith:Элементы больше не нужны для Создания. Все карты теряют #b2 #yrunesmith:Мощи. "
     ]
   },
   "Runesmith:CoreCrystal": {
