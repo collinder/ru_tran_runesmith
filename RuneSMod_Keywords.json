@@ -37,7 +37,8 @@
       "NAMES": [
         "создать",
         "создания",
-        "создании"
+          "создании",
+	  "создает"
       ],
       "DESCRIPTION": "Создать Руну, используя #yЭлементы. Если Руну не создать, получить вместо этого требуемые для создания #yЭлементы. Вы не можете иметь больше #b7 активных Рун."
     },
@@ -48,24 +49,29 @@
         "элемент",
         "игнис",
         "терра",
-        "аква"
+          "аква",
+        "игниса",
+          "терру",
+	  "терры",
+          "аквы"
+	  
       ],
       "DESCRIPTION": "Элементы (Игнис, Терра и Аква) тратятся для #yСоздания Рун или могут использоваться по-другому."
     },
     {
-      "PROPER_NAME": "Break",
+      "PROPER_NAME": "Разбивание",
       "NAMES": [
-        "break",
-        "broken"
+        "разбивает",
+        "разбитии"
       ],
-      "DESCRIPTION": "Destroy a Rune and activate its effect twice. Power-based effects will be removed before the start of your next turn."
+      "DESCRIPTION": "Уничтожает Руну и активирует её эффект дважды. Power-based effects will be removed before the start of your next turn."
     },
     {
-      "PROPER_NAME": "Incendium",
+      "PROPER_NAME": "Поджигалий",
       "NAMES": [
-        "incendium"
+        "поджигалий"
       ],
-      "DESCRIPTION": "Rune: Deals damage to ALL enemies."
+      "DESCRIPTION": "Руна: Наносит урон ВСЕМ врагам."
     },
     {
       "PROPER_NAME": "Огнекамень",
@@ -75,44 +81,46 @@
       "DESCRIPTION": "Руна: Наносит урон случ. врагам."
     },
     {
-      "PROPER_NAME": "Protectio",
+      "PROPER_NAME": "Защитио",
       "NAMES": [
-        "protectio"
+        "защитио"
       ],
-      "DESCRIPTION": "Rune: Gain #yBlock."
+      "DESCRIPTION": "Руна: Даёт #yЗащиты."
     },
     {
       "PROPER_NAME": "Spiculum",
       "NAMES": [
         "spiculum"
       ],
-      "DESCRIPTION": "Rune: Gain #yThorns."
+      "DESCRIPTION": "Руна: Даёт #yШипы."
     },
     {
-      "PROPER_NAME": "Potentia",
+      "PROPER_NAME": "Потенциалио",
       "NAMES": [
-        "potentia"
+        "потенциалио"
       ],
-      "DESCRIPTION": "Rune: Gain #yPotency"
+	"DESCRIPTION": "Руна: Даёт #yМощь"
     },
     {
-      "PROPER_NAME": "Medicinae",
+      "PROPER_NAME": "Лечилио",
       "NAMES": [
-        "medicinae"
+        "лечилио"
       ],
-      "DESCRIPTION": "Rune: Heals on #yBreak or at the end of combat."
+      "DESCRIPTION": "Руна: Восполняет ОЗ при #yРазбитии или в конце боя."
     },
     {
-      "PROPER_NAME": "Dud",
+      "PROPER_NAME": "Дефектио",
       "NAMES": [
-        "dud"
+          "дефектио",
+	  "дефект"
       ],
-      "DESCRIPTION": "Rune: No effect."
+      "DESCRIPTION": "Руна: Без эффекта."
     },
     {
-      "PROPER_NAME": "Магма",
+      "PROPER_NAME": "Магмио",
       "NAMES": [
-        "магма"
+          "магмио"
+	  "магмы"
       ],
       "DESCRIPTION": "Руна: Наносит урон случ. врагу и даёт Защиту."
     },
@@ -124,25 +132,27 @@
       "DESCRIPTION": "Lose all selected #yElement then gain other #yElements equals to the amount lost and perform certain action depending on the #yElement chosen."
     },
     {
-      "PROPER_NAME": "Obretio",
+      "PROPER_NAME": "Опутывалио",
       "NAMES": [
-        "obretio"
+        "опутывалио"
       ],
-      "DESCRIPTION": "Rune: Reduces an enemy #yStrength for a turn."
+      "DESCRIPTION": "Руна: Снижает #yСилу врага в этом ходу."
     },
     {
-      "PROPER_NAME": "Ice-Cold",
+      "PROPER_NAME": "Подмороженный",
       "NAMES": [
-        "ice-cold"
+        "подмороженный"
       ],
-      "DESCRIPTION": "Decrease attack damage by #b1 per stack. Stack is reduced by #b1 at the end of turn. NL Remove #ySlow when stack reaches #b0."
+      "DESCRIPTION": "Снижает attack damage by #b1 per stack. Stack is reduced by #b1 at the end of turn. NL Remove #ySlow when stack reaches #b0."
     },
     {
-      "PROPER_NAME": "Vitae",
+      "PROPER_NAME": "Жизняка",
       "NAMES": [
-        "vitae"
+          "жизняку",
+	  "жизняка"
+	  
       ],
-      "DESCRIPTION": "Rune: Lose #yPotency of the Rune instead of HP."
+      "DESCRIPTION": "Руна: Вместо ОЗ отнимается #yМощь этой Руны."
     }
   ]
 }
