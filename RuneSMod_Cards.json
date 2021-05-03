@@ -41,16 +41,16 @@
   },
   "Runesmith:RuneHurl": {
     "NAME": "Rune Hurl",
-    "DESCRIPTION": "runesmith:Разбивает your oldest Rune to нанести !D! урона. NL If you don't have any Runes, draw 1 card."
+    "DESCRIPTION": "runesmith:Разбивает your oldest Rune to нанести !D! урона. NL Вы берёте 1 карту, если у вас нет Рун."
   },
   "Runesmith:CraftIncendium": {
     "NAME": "Создать поджигалий",
-    "DESCRIPTION": "3 runesmith:Игнис: runesmith:Создает Рруну runesmith:Поджигалий  с !RS:Pot! runesmith:Мощи."
+    "DESCRIPTION": "3 runesmith:Игнис: runesmith:Создает Руну runesmith:Поджигалий  с !RS:Pot! runesmith:Мощи."
   },
   "Runesmith:ElementalConversion": {
     "NAME": "Elementary Particles",
     "DESCRIPTION": "Choose an runesmith:Element to runesmith:Decay.",
-    "UPGRADE_DESCRIPTION": "Choose an runesmith:Element to runesmith:Decay. NL Draw !M! card."
+    "UPGRADE_DESCRIPTION": "Choose an runesmith:Element to runesmith:Decay. NL Вы берёте !M! карту."
   },
   "Runesmith:ConvertIgnis": {
     "NAME": "Ignis Decay",
@@ -58,16 +58,16 @@
   },
   "Runesmith:ConvertTerra": {
     "NAME": "Terra Decay",
-    "DESCRIPTION": "Gain !B! Block. NL Lose all runesmith:Terra. NL Gain runesmith:Ignis and runesmith:Aqua equal to runesmith:Terra lost."
+    "DESCRIPTION": "Даёт !B! Защиты. NL Lose all runesmith:Terra. NL Gain runesmith:Ignis and runesmith:Aqua equal to runesmith:Terra lost."
   },
   "Runesmith:ConvertAqua": {
     "NAME": "Aqua Decay",
-    "DESCRIPTION": "Gain !M! runesmith:Potency this turn. NL Lose all runesmith:Aqua. NL Gain runesmith:Ignis and runesmith:Terra equal to runesmith:Aqua lost."
+    "DESCRIPTION": "Даёт !M! runesmith:Мощи в этом ходу. NL Отнимает ВСЮ runesmith:Акву. NL Даёт runesmith:Игниса и runesmith:Терры, равные количеству потерянной runesmith:Аквы."
   },
   "Runesmith:Repurpose": {
     "NAME": "Repurpose",
-    "DESCRIPTION": "Exhaust a card. NL Attack: Gain !M! runesmith:Ignis. NL Skill: Gain !M! runesmith:Terra. NL Power: Gain !M! runesmith:Aqua. NL Status: Gain 1 of each.",
-    "UPGRADE_DESCRIPTION": "Exhaust a card. NL Attack: Gain !M! runesmith:Ignis. NL Skill: Gain !M! runesmith:Terra. NL Power: Gain !M! runesmith:Aqua. NL Status: Gain 1 of each. NL Curse: Gain 2 of each."
+    "DESCRIPTION": "Сжигает карту. NL Атака: Даёт !M! runesmith:Игниса. NL Навык: Даёт !M! runesmith:Терры. NL Талант: Даёт !M! runesmith:Аквы. NL Статус: Даёт 1 каждого элемента.",
+    "UPGRADE_DESCRIPTION": "Сжигает карту. NL Атака: Даёт !M! runesmith:Игниса. NL Навык: Даёт !M! runesmith:Терры. NL Талант: Даёт !M! runesmith:Аквы. NL Статус: Даёт 1 каждого элемента. NL Проклятье: Даёт 2 каждого элемента."
   },
   "Runesmith:EnergizedChisel": {
     "NAME": "Energized Chisel",
@@ -88,11 +88,11 @@
   },
   "Runesmith:StaticCage": {
     "NAME": "Static Cage",
-    "DESCRIPTION": "runesmith:Break your oldest Rune. NL runesmith:Stasis a card in your hand. NL Gain !B! Block."
+    "DESCRIPTION": "runesmith:Разбивает your oldest Rune. NL Наложить runesmith:Стазис на карту в руке. NL Даёт !B! Защиты."
   },
   "Runesmith:Prism": {
     "NAME": "Prism",
-    "DESCRIPTION": "Gain Block equal to !M! times the number of all your runesmith:Elements. NL Lose half your runesmith:Elements.",
+    "DESCRIPTION": "Даёт Защиты equal to !M! times the number of all your runesmith:Elements. NL Lose half your runesmith:Elements.",
     "EXTENDED_DESCRIPTION": [
       " NL (Gain !B! Block)"
     ]
@@ -104,7 +104,7 @@
   },
   "Runesmith:FieryHammer": {
     "NAME": "Fiery Hammer",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Can be Upgraded any number of times."
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагов. NL Can be Upgraded any number of times."
   },
   "Runesmith:CraftReservo": {
     "NAME": "Craft Reservo",
@@ -183,14 +183,14 @@
   },
   "Runesmith:LastStand": {
     "NAME": "Last Stand",
-    "DESCRIPTION": "Эфирная. NL runesmith:Downgrade ALL your cards. NL ALL cards cost 1 less and Exhaust. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "runesmith:Downgrade ALL your cards. NL ALL cards cost 1 less and Exhaust. NL Exhaust.",
+    "DESCRIPTION": "Эфирная. NL runesmith:Ухудшает ВСЕ карты. NL ВСЕ карты стоят на 1 меньше и Сжигаются. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "runesmith:Ухудшает ВСЕ карты. NL ВСЕ карты стоят на 1 меньше и Сжигаются. NL Сжигается.",
     "EXTENDED_DESCRIPTION": [
-      " NL (Deal !D! damage)"
+	" NL (Наносит !D! урона)"
     ]
   },
   "Runesmith:GenerateForcefield": {
-    "NAME": "Generate Forcefield",
+    "NAME": " Generate Forcefield",
     "DESCRIPTION": "runesmith:Break your X oldest non-Dud Runes. Prevent the next time you would lose HP for each Rune runesmith:Broken. NL Сжигается.",
     "UPGRADE_DESCRIPTION": "runesmith:Break your X+1 oldest non-Dud Runes. Prevent the next time you would lose HP for each Rune runesmith:Broken. NL Сжигается."
   },
