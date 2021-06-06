@@ -1,10 +1,10 @@
 {
   "Rune Tip": {
     "TEXT": [
-      "I'm out of #rrunes space."
+      "Места под #yРуны кончились."
     ],
     "LABEL": [
-      "Rune"
+      "Руна"
     ]
   }
 }

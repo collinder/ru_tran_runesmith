@@ -1,27 +1,27 @@
 {
   "Runesmith:IgnisPower": {
-    "NAME": "Ignis",
+    "NAME": "Игнис",
     "DESCRIPTIONS": [
-      "You currently have #b",
-      " out of "," #yIgnis."
+      "У вас #b",
+      " из "," #yИгниса."
     ]
   },
   "Runesmith:TerraPower": {
-    "NAME": "Terra",
+    "NAME": "Терра",
     "DESCRIPTIONS": [
-      "You currently have #b",
-      " out of "," #yTerra."
+      "У вас #b",
+      " из "," #yТерры."
     ]
   },
   "Runesmith:AquaPower": {
-    "NAME": "Aqua",
+    "NAME": "Аква",
     "DESCRIPTIONS": [
-      "You currently have #b",
-      " out of "," #yAqua."
+      "У вас #b",
+      " из "," #yАквы."
     ]
   },
   "Runesmith:GrindstonePower": {
-    "NAME": "Grindstone",
+    "NAME": "Точило",
     "DESCRIPTIONS": [
       "This turn, all cards played become #yUpgraded. #yEnhance the card if it cannot be #yUpgraded.",
       "For the next #b",

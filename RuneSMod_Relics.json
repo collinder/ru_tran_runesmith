@@ -21,8 +21,8 @@
     ]
   },
   "Runesmith:UraniumAnvil": {
-    "NAME": "Uranium Anvil",
-    "FLAVOR": "This block of metal holds massive amount of energy but weakens anyone who comes near it.",
+    "NAME": "Урановая наковальня",
+    "FLAVOR": "Этот кусок металла заключает в себе огромное количество энергии, но ослабляет всех, кто находится рядом.",
     "DESCRIPTIONS": [
       " at the start of your turn. #yrunesmith:Downgrade a random card in your draw pile, hand, or discard pile each turn.",
       "Gain [E]"
@@ -60,7 +60,7 @@
     "NAME": "Core Crystal",
     "FLAVOR": "The crystal surges with new life.",
     "DESCRIPTIONS": [
-      "Replaces #rBroken #rRuby. All #yrunesmith:Element gains are increased by #b50%. Raises maximum #yrunesmith:Elements to #b20."
+      "Заменяет #rBroken #rRuby. All #yrunesmith:Element gains are increased by #b50%. Raises maximum #yrunesmith:Elements to #b20."
     ]
   }
 }

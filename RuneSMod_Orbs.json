@@ -2,82 +2,82 @@
   "Firestone": {
     "NAME": "Огнекамень",
     "DESCRIPTION": [
-      "At the end of turn, deal #b{Pot} damage to a random enemy."
+      "Наносит #b{Pot} урона случайному врагу в конце вашего хода."
     ]
   },
   "Protectio": {
-    "NAME": "Protectio",
+    "NAME": "Защитио",
     "DESCRIPTION": [
-      "At the end of turn, gain #b{Pot} #yBlock."
+      "Даёт #b{Pot} #yЗащиты в конце вашего хода."
     ]
   },
   "Incendium": {
-    "NAME": "Incendium",
+    "NAME": "Поджигалий",
     "DESCRIPTION": [
-      "At the end of turn, deal #b{Pot} damage to ALL enemies."
+      "Наносит #b{Pot} урона ВСЕМ врагам в конце вашего хода."
     ]
   },
   "Reservo": {
-    "NAME": "Reservo",
+    "NAME": "Резервио",
     "DESCRIPTION": [
-      "At the end of turn, #yRetain up to #b1 card. NL #yBreak: #yRetain up to #b2 cards.",
-      "At the end of turn, #yRetain up to #b2 cards. NL #yBreak: #yRetain up to #b4 cards."
+      "#yОставляет до #b1 карты в конце вашего хода. NL #yРазбивает: #yОставляет до #b2 карт.",
+      "#yОставляет до #b2 карт в конце вашего хода. NL #yРазбивает: #yОставляет до #b4 карт."
     ]
   },
   "Spiculum": {
-    "NAME": "Spiculum",
+    "NAME": "Острио",
     "DESCRIPTION": [
-      "Gain #b{Pot} #yThorns. NL #yBreak: Gain another #b{Pot} #yThorns then lose twice that at the end of turn."
+      "Даёт #b{Pot} #yШипов. NL #yРазбитие: Даёт доп. #b{Pot} #yШипов, после отнимает удвоенное количество #yШипов в конце вашего хода."
     ]
   },
   "Potentia": {
-    "NAME": "Potentia",
+    "NAME": "Потенциалио",
     "DESCRIPTION": [
-      "Gain #b{Pot} #yPotency. NL #yBreak: Gain another #b{Pot} #yPotency then lose twice that at the end of turn."
+      "Даёт #b{Pot} #yМощи. NL #yРазбитие: Даёт доп. #b{Pot} #yМощи, после отнимает удвоенное количество #yМощи в конце вашего хода."
     ]
   },
   "Prismatica": {
-    "NAME": "Prismatica",
+    "NAME": "Призматико",
     "DESCRIPTION": [
-      "At the start of turn, add a random card into your hand. It costs #b0 for the turn.",
-      "At the start of turn, add a random #yUpgraded card into your hand. It costs #b0 for the turn."
+      "Добавляет в руку случайную карту в начале вашего хода. В этом ходу она стоит #b0.",
+      "Добавляет в руку случайную #yУлучшенную карту в начале вашего хода. В этом ходу она стоит #b0."
     ]
   },
   "Industria": {
-    "NAME": "Industria",
+    "NAME": "Индустрия",
     "DESCRIPTION": [
-      "At the start of turn, gain [E] .",
-      "At the start of turn, gain [E] and draw #b1 card."
+      "Даёт [E] в начале каждого хода в начале вашего хода.",
+      "Даёт [E] и вы берёте #b1 карту в начале вашего хода."
     ]
   },
   "Medicinae": {
-    "NAME": "Medicinae",
+    "NAME": "Лечилио",
     "DESCRIPTION": [
-      "At the end of combat, heals #b{Pot2} HP. NL #yBreak: Heals #b{Pot} HP."
+      "Восполняет #b{Pot2} ОЗ в конце боя. NL #yРазбивает: Восполняет #b{Pot} ОЗ."
     ]
   },
   "Dud": {
-    "NAME": "Dud",
+    "NAME": "Дефектий",
     "DESCRIPTION": [
-      "No effect."
+      "Без эффекта."
     ]
   },
   "Magma": {
-    "NAME": "Magma",
+    "NAME": "Магма",
     "DESCRIPTION": [
-      "At the end of turn, deal #b{Pot} damage and gain #b{Pot2} #yBlock."
+      "Наносит #b{Pot} урона и даёт #b{Pot2} #yЗащиты в конце вашего хода."
     ]
   },
   "Obretio": {
-    "NAME": "Obretio",
+    "NAME": "Опутывалио",
     "DESCRIPTION": [
-      "At the end of turn, enemy with highest attack intent loses #b{Pot} #yStrength this turn."
+      "Враг, намеревающийся нанести наибольшее количество урона, теряет #b{Pot} #yСилы до конца своего хода."
     ]
   },
   "Vitae": {
-    "NAME": "Vitae",
+    "NAME": "Жизняка",
     "DESCRIPTION": [
-      "Lose #yPotency of this rune instead of HP. NL #yBreak: Gain #b{Pot} #yBlock twice."
+      "Вместо ОЗ теряется #yМощь этой Руны. NL #yРазбивает: Даёт #b{Pot} #yЗащиты дважды."
     ]
   }
 }

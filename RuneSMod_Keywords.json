@@ -5,7 +5,8 @@
       "NAMES": [
         "усиливает",
         "усиленные",
-        "усиления"
+          "усиления",
+          "усиленная"
       ],
       "DESCRIPTION": "Увеличивает урон, #yЗащиту и #yМощь карту на #b50%. Складывается аддитивно. #yУсиление убирается с карты после её разыгрывания."
     },
@@ -22,7 +23,7 @@
       "NAMES": [
         "стазис"
       ],
-      "DESCRIPTION": "Prevent a card from losing #yEnhancement when played once."
+      "DESCRIPTION": "Предотвращает потерю #yУсиления картой при след. розыгрыше."
     },
     {
       "PROPER_NAME": "Мощь",
@@ -53,7 +54,8 @@
         "игниса",
           "терру",
 	  "терры",
-          "аквы"
+          "аквы",
+          "акву"
 	  
       ],
       "DESCRIPTION": "Элементы (Игнис, Терра и Аква) тратятся для #yСоздания Рун или могут использоваться по-другому."
@@ -62,9 +64,10 @@
       "PROPER_NAME": "Разбивание",
       "NAMES": [
         "разбивает",
-        "разбитии"
+          "разбитии",
+          "разбитие"
       ],
-      "DESCRIPTION": "Уничтожает Руну и активирует её эффект дважды. Power-based effects will be removed before the start of your next turn."
+      "DESCRIPTION": "Уничтожает Руну и активирует её эффект дважды. Пассивные эффекты будут убраны перед началом след. хода."
     },
     {
       "PROPER_NAME": "Поджигалий",
@@ -88,9 +91,9 @@
       "DESCRIPTION": "Руна: Даёт #yЗащиты."
     },
     {
-      "PROPER_NAME": "Spiculum",
+      "PROPER_NAME": "Острио",
       "NAMES": [
-        "spiculum"
+        "острио"
       ],
       "DESCRIPTION": "Руна: Даёт #yШипы."
     },
@@ -119,17 +122,17 @@
     {
       "PROPER_NAME": "Магмио",
       "NAMES": [
-          "магмио"
+          "магмио",
 	  "магмы"
       ],
       "DESCRIPTION": "Руна: Наносит урон случ. врагу и даёт Защиту."
     },
     {
-      "PROPER_NAME": "Decay",
+      "PROPER_NAME": "Распад",
       "NAMES": [
-        "decay"
+        "распадется"
       ],
-      "DESCRIPTION": "Lose all selected #yElement then gain other #yElements equals to the amount lost and perform certain action depending on the #yElement chosen."
+      "DESCRIPTION": "Отнимает весь выбранный #yЭлемент, потом даёт других #yЭлементов equals to the amount lost and perform certain action depending on the #yElement chosen."
     },
     {
       "PROPER_NAME": "Опутывалио",

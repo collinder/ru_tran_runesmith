@@ -16,39 +16,39 @@
     "DESCRIPTION": "2 runesmith:Терры: runesmith:Создает Руну runesmith:Защитио с !RS:Pot! runesmith:Мощи."
   },
   "Runesmith:Fortify": {
-    "NAME": "Fortify",
+    "NAME": "Укрепить",
     "DESCRIPTION": "Даёт !B! Защиты. NL runesmith:Усиливает случ. карту в руке.",
     "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL runesmith:Усиливает карту в руке."
   },
   "Runesmith:ChiselStab": {
-    "NAME": "Chisel Stab",
+    "NAME": "Проникновение резца",
     "DESCRIPTION": "Наносит !D! урона. NL Даёт 2 runesmith:Игниса."
   },
   "Runesmith:EarthShield": {
-    "NAME": "Earth Shield",
+    "NAME": "Земляной щит",
     "DESCRIPTION": "Даёт !B! Защиты. NL Даёт 2 runesmith:Терры."
   },
   "Runesmith:HeatedChisel": {
-    "NAME": "Heated Chisel",
+    "NAME": "Раскаленный резец",
     "DESCRIPTION": "Наносит !D! урона. NL Накладывает !M! Уязвимости. NL Даёт 1 runesmith:Игниса и 1 runesmith:Терры."
   },
   "Runesmith:Terraform": {
-    "NAME": "Terraform",
-    "DESCRIPTION": "Даёт 1 runesmith:Терры. NL Даёт Защиты, равную количеству runesmith:Терры  equals to !M! times .",
+    "NAME": "Терраформировать",
+    "DESCRIPTION": "Даёт 1 runesmith:Терры. NL Даёт Защиты, равную количеству runesmith:Терры, увеличенное в !M! раза.",
     "EXTENDED_DESCRIPTION": [
       " NL (Даёт !B! Защиты.)"
     ]
   },
   "Runesmith:RuneHurl": {
-    "NAME": "Rune Hurl",
-    "DESCRIPTION": "runesmith:Разбивает your oldest Rune to нанести !D! урона. NL Вы берёте 1 карту, если у вас нет Рун."
+    "NAME": "Швырнуть руну",
+    "DESCRIPTION": "runesmith:Разбивает старейшую Руну, чтобы нанести !D! урона. NL Вы берёте 1 карту, если у вас нет Рун."
   },
   "Runesmith:CraftIncendium": {
     "NAME": "Создать поджигалий",
     "DESCRIPTION": "3 runesmith:Игнис: runesmith:Создает Руну runesmith:Поджигалий  с !RS:Pot! runesmith:Мощи."
   },
   "Runesmith:ElementalConversion": {
-    "NAME": "Elementary Particles",
+    "NAME": "Эдементальные частицы",
     "DESCRIPTION": "Choose an runesmith:Element to runesmith:Decay.",
     "UPGRADE_DESCRIPTION": "Choose an runesmith:Element to runesmith:Decay. NL Вы берёте !M! карту."
   },
@@ -58,16 +58,17 @@
   },
   "Runesmith:ConvertTerra": {
     "NAME": "Terra Decay",
-    "DESCRIPTION": "Даёт !B! Защиты. NL Lose all runesmith:Terra. NL Gain runesmith:Ignis and runesmith:Aqua equal to runesmith:Terra lost."
+    "DESCRIPTION": "Даёт !B! Защиты. NL Отнимает всю runesmith:Terra. NL Даёт runesmith:Игниса и runesmith:Аквы equal to runesmith:Terra lost."
   },
   "Runesmith:ConvertAqua": {
     "NAME": "Aqua Decay",
-    "DESCRIPTION": "Даёт !M! runesmith:Мощи в этом ходу. NL Отнимает ВСЮ runesmith:Акву. NL Даёт runesmith:Игниса и runesmith:Терры, равные количеству потерянной runesmith:Аквы."
+    "DESCRIPTION": "Даёт !M! runesmith:Мощи в этом ходу. NL Отнимает всю runesmith:Акву. NL Даёт runesmith:Игниса и runesmith:Терры, равные количеству потерянной runesmith:Аквы."
   },
   "Runesmith:Repurpose": {
     "NAME": "Repurpose",
     "DESCRIPTION": "Сжигает карту. NL Атака: Даёт !M! runesmith:Игниса. NL Навык: Даёт !M! runesmith:Терры. NL Талант: Даёт !M! runesmith:Аквы. NL Статус: Даёт 1 каждого элемента.",
-    "UPGRADE_DESCRIPTION": "Сжигает карту. NL Атака: Даёт !M! runesmith:Игниса. NL Навык: Даёт !M! runesmith:Терры. NL Талант: Даёт !M! runesmith:Аквы. NL Статус: Даёт 1 каждого элемента. NL Проклятье: Даёт 2 каждого элемента."
+    "UPGRADE_DESCRIPTION": "Сжигает карту. NL Атака: Даёт !M! runesmith:Игниса. NL Навык: Даёт !M! runesmith:Терры. NL Талант: Даёт !M! runesmith:Аквы. NL Статус: Даёт 1 каждого элемента. NL Проклятье: Даёт 2 
+каждого элемента."
   },
   "Runesmith:EnergizedChisel": {
     "NAME": "Energized Chisel",
@@ -79,12 +80,12 @@
   },
   "Runesmith:HammerThrow": {
     "NAME": "Hammer Throw",
-    "DESCRIPTION": "Наносит !D! урона. NL Draw !M! card and Upgrade it.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Draw !M! cards and Upgrade them."
+    "DESCRIPTION": "Наносит !D! урона. NL Вы берёте !M! карту и Улучшаете её.",
+    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL Вы берёте !M! карты и Улучшаете их."
   },
   "Runesmith:OneForEveryone": {
     "NAME": "One for Everyone",
-    "DESCRIPTION": "runesmith:Break your oldest Rune to NL gain [E] , gain 1 Block, NL deal 1 damage, NL apply 1 Weak and Vulnerable to ALL enemies, NL gain 1 of each runesmith:Element and draw 1 card."
+    "DESCRIPTION": "runesmith:Разбивает your oldest Rune to NL gain [E] , gain 1 Block, NL deal 1 damage, NL apply 1 Weak and Vulnerable to ALL enemies, NL gain 1 of each runesmith:Element and draw 1 card."
   },
   "Runesmith:StaticCage": {
     "NAME": "Static Cage",
@@ -92,33 +93,33 @@
   },
   "Runesmith:Prism": {
     "NAME": "Prism",
-    "DESCRIPTION": "Даёт Защиты equal to !M! times the number of all your runesmith:Elements. NL Lose half your runesmith:Elements.",
+    "DESCRIPTION": "Даёт Защиты, равную количеству всех runesmith:Элементов, умноженного в !M! раз. NL Отнимает половину всех runesmith:Элементов.",
     "EXTENDED_DESCRIPTION": [
-      " NL (Gain !B! Block)"
+      " NL (Даёт !B! Защиты)"
     ]
   },
   "Runesmith:Grindstone": {
-    "NAME": "Grindstone",
+    "NAME": "Точило",
     "DESCRIPTION": "Даёт !B! Защиты. NL Когда вы разыгрываете карты в этом ходу,  NL Улучшает их. NL runesmith:Усиливает карту, если её нельзя Улучшить.",
-    "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Когда вы разыгрываете карты след. !M! ходов,  NL Улучшает их. NL runesmith:Усиливает карту, если её нельзя Улучшить."
+    "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Когда вы разыгрываете карты в след. !M! хода,  NL Улучшает их. NL runesmith:Усиливает карту, если её нельзя Улучшить."
   },
   "Runesmith:FieryHammer": {
     "NAME": "Fiery Hammer",
-    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагов. NL Can be Upgraded any number of times."
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагов. NL Можно Улучшать неограниченное количество раз."
   },
   "Runesmith:CraftReservo": {
     "NAME": "Craft Reservo",
-    "DESCRIPTION": "2 runesmith:Aqua: runesmith:Craft a [#EFC851]Reservo Rune.",
-    "UPGRADE_DESCRIPTION": "2 runesmith:Aqua: runesmith:Craft a [#EFC851]Reservo+ Rune."
+    "DESCRIPTION": "2 runesmith:Аква: runesmith:Создает Руну [#EFC851]Reservo.",
+    "UPGRADE_DESCRIPTION": "2 runesmith:Аква: runesmith:Создает Руну [#EFC851]Reservo+."
   },
   "Runesmith:LithiumIon": {
     "NAME": "Lithium Ion",
-    "DESCRIPTION": "Gain !M! runesmith:Potency."
+    "DESCRIPTION": "Даёт !M! runesmith:Мощи."
   },
   "Runesmith:Firestorm": {
     "NAME": "Firestorm",
-    "DESCRIPTION": "Innate. NL At the start of your turn, gain !M! runesmith:Ignis and !M! runesmith:Terra.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, gain !M! runesmith:Ignis and !M! runesmith:Terra."
+    "DESCRIPTION": "Начальная. NL At the start of your turn, gain !M! runesmith:Ignis and !M! runesmith:Terra.",
+    "UPGRADE_DESCRIPTION": "Начальная. NL At the start of your turn, gain !M! runesmith:Ignis and !M! runesmith:Terra."
   },
   "Runesmith:RunicBlueprint": {
     "NAME": "Runic Blueprint",
@@ -126,7 +127,7 @@
   },
   "Runesmith:CraftSpiculum": {
     "NAME": "Craft Spiculum",
-    "DESCRIPTION": "2 runesmith:Ignis 1 runesmith:Aqua: runesmith:Craft a runesmith:Spiculum Rune with !RS:Pot! runesmith:Potency."
+    "DESCRIPTION": "2 runesmith:Игниса 1 runesmith:Аква: runesmith:Создает Руну runesmith:Spiculum с !RS:Pot! runesmith:Мощи."
   },
   "Runesmith:CraftPotentia": {
     "NAME": "Craft Potentia",
@@ -139,23 +140,23 @@
   },
   "Runesmith:MakeshiftArmor": {
     "NAME": "Makeshift Armor",
-    "DESCRIPTION": "runesmith:Downgrade a random card in your draw pile, hand, or discard pile. NL Gain !B! Block. NL Gain 1 runesmith:Terra."
+    "DESCRIPTION": "runesmith:Ухудшает случ. карту в стопке добора, руке, или стопке сброса. NL Даёт !B! Защиты. NL Даёт 1 runesmith:Терры."
   },
   "Runesmith:ShiftingStrike": {
     "NAME": "Shifting Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Remove all runesmith:Enhancement from a card in your hand, then runesmith:Enhance one that many times."
+    "DESCRIPTION": "Наносит !D! урона. NL Remove all runesmith:Enhancement from a card in your hand, then runesmith:Enhance one that many times."
   },
   "Runesmith:ChaoticBlast": {
     "NAME": "Chaotic Blast",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL !M! of each runesmith:Element: runesmith:Craft !M! random",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL !M! каждого runesmith:Элемент: runesmith:Создает !M! случ.",
     "EXTENDED_DESCRIPTION": [
-      " Rune.",
-      " Runes."
+      " Руну.",
+      " Рун."
     ]
   },
   "Runesmith:Empowerment": {
     "NAME": "Empowerment",
-    "DESCRIPTION": "Gain Strength equal to your runesmith:Ignis this turn. NL Gain Dexterity equal to your runesmith:Terra this turn."
+    "DESCRIPTION": "Даёт Силы equal to your runesmith:Ignis this turn. NL Gain Dexterity equal to your runesmith:Terra this turn."
   },
   "Runesmith:Runesonance": {
     "NAME": "Runesonance",
@@ -168,18 +169,18 @@
     "UPGRADE_DESCRIPTION": "This turn, create a copy of the next !M! Runes you runesmith:Craft."
   },
   "Runesmith:CraftPrismatica": {
-    "NAME": "Craft Prismatica",
-    "DESCRIPTION": "2 of each runesmith:Element: runesmith:Craft a [#EFC851]Prismatica Rune.",
-    "UPGRADE_DESCRIPTION": "2 of each runesmith:Element: runesmith:Craft a [#EFC851]Prismatica+ Rune."
+    "NAME": "Создать Prismatica",
+    "DESCRIPTION": "2 каждого runesmith:Элемента: runesmith:Создает Руну [#EFC851]Prismatica.",
+    "UPGRADE_DESCRIPTION": "2 каждого runesmith:Элемента: runesmith:Создает Руну [#EFC851]Prismatica+."
   },
   "Runesmith:CraftIndustria": {
-    "NAME": "Создать Индустрию",
+    "NAME": "Создать индустрию",
     "DESCRIPTION": "3 runesmith:Аква: runesmith:Создает Руну [#EFC851]Индустрия.",
     "UPGRADE_DESCRIPTION": "3 runesmith:Аква: runesmith:Создает Руну [#EFC851]Индустрия+."
   },
   "Runesmith:CraftMedicinae": {
-    "NAME": "Создать Medicinae",
-    "DESCRIPTION": "5 runesmith:Terra: runesmith:Craft a runesmith:Medicinae Rune with !RS:Pot! runesmith:Potency. NL Exhaust. NL Cannot be runesmith:Stasis."
+    "NAME": "Создать лечилио",
+    "DESCRIPTION": "5 runesmith:Терра: runesmith:Создает Руну runesmith:Лечилио с !RS:Pot! runesmith:Мощи. NL Сжигается. NL Cannot be runesmith:Stasis."
   },
   "Runesmith:LastStand": {
     "NAME": "Last Stand",
@@ -190,13 +191,13 @@
     ]
   },
   "Runesmith:GenerateForcefield": {
-    "NAME": " Generate Forcefield",
-    "DESCRIPTION": "runesmith:Break your X oldest non-Dud Runes. Prevent the next time you would lose HP for each Rune runesmith:Broken. NL Сжигается.",
+    "NAME": "Силовое поле",
+    "DESCRIPTION": "runesmith:Разбивает X старейших Рун, не являющихся дефектио. NL Prevent the next time you would lose HP for each Rune runesmith:Broken. NL Сжигается.",
     "UPGRADE_DESCRIPTION": "runesmith:Break your X+1 oldest non-Dud Runes. Prevent the next time you would lose HP for each Rune runesmith:Broken. NL Сжигается."
   },
   "Runesmith:Supernova": {
     "NAME": "Сверхновая",
-    "DESCRIPTION": "runesmith:Break all your Runes. NL Draw 1 card and gain [E] for each non-Dud Rune runesmith:Broken."
+    "DESCRIPTION": "runesmith:Разбивает все Руны. NL Вы берёте 1 карту и gain [E] for each non-Dud Rune runesmith:Broken."
   },
   "Runesmith:CreatorForm": {
     "NAME": "Облик Создателя",
@@ -204,8 +205,8 @@
   },
   "Runesmith:DuctTape": {
     "NAME": "Duct Tape",
-    "DESCRIPTION": "At the start of your turn, Накладывает runesmith:Стазис up to !M! card.",
-    "UPGRADE_DESCRIPTION": "At the start of your turn, Накладывает runesmith:Стазис up to !M! card."
+    "DESCRIPTION": "Накладывает runesmith:Стазис вплоть до !M! карт в начале каждого хода .",
+    "UPGRADE_DESCRIPTION": "Накладывает runesmith:Стазис вплоть до !M! карт в начале каждого хода."
   },
   "Runesmith:MetallurgicalResearch": {
     "NAME": "Металлургическое исследование",
@@ -217,7 +218,7 @@
     "DESCRIPTION": "2 runesmith:Игнис 2 runesmith:Терра: runesmith:Создает Руну runesmith:Магмио с !RS:Pot! runesmith:Мощи."
   },
   "Runesmith:Retool": {
-    "NAME": "Retool",
+    "NAME": "Переоборужование",
     "DESCRIPTION": "Shuffle all Upgraded or runesmith:Enhanced cards from your discard pile into your draw pile.  NL Draw !M! cards."
   },
   "Runesmith:UnlimitedPower": {
@@ -229,31 +230,31 @@
     "NAME": "White Balance",
     "DESCRIPTION": "Наносит урона equals to !M! times the number of runesmith:Elements gained this turn.",
     "EXTENDED_DESCRIPTION": [
-      " NL (Deals !D! damage.)"
+      " NL (Наносит !D! урона.)"
     ]
   },
   "Runesmith:GrandSlam": {
     "NAME": "Grand Slam",
-    "DESCRIPTION": "Наносит !D! урона. NL runesmith:Enhance all cards in your hand.",
-    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL runesmith:Enhance all cards in your hand twice."
+    "DESCRIPTION": "Наносит !D! урона. NL runesmith:Усиливает все карты в руке.",
+    "UPGRADE_DESCRIPTION": "Наносит !D! урона. NL runesmith:Усиливает все карты в руке дважды."
   },
   "Runesmith:GoWithTheFlow": {
     "NAME": "Go With The Flow",
-    "DESCRIPTION": "Наносит !D! урона. NL Даёт !M! runesmith:Aqua. NL Gain 1 runesmith:Potency. NL Exhaust."
+    "DESCRIPTION": "Наносит !D! урона. NL Даёт !M! runesmith:Аквы. NL Даёт 1 runesmith:Мощи. NL Сжигается."
   },
   "Runesmith:PerfectChisel": {
-    "NAME": "Perfect Chisel",
-    "DESCRIPTION": "Наносит !D! урона. NL Даёт 1 of each runesmith:Element. NL Даёт !M! runesmith:Potency this turn."
+    "NAME": "Идеальный резец",
+    "DESCRIPTION": "Наносит !D! урона. NL Даёт 1 каждого runesmith:Элемента. NL Даёт !M! runesmith:Мощи в этом ходу."
   },
   "Runesmith:DoubleUp": {
-    "NAME": "Double Up",
-    "DESCRIPTION": "Даёт !B! Защиты. NL Улучшает and runesmith:Enhance !M! card in your hand.",
-    "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Улучшает and runesmith:Enhance !M! cards in your hand."
+    "NAME": "Удвоить",
+    "DESCRIPTION": "Даёт !B! Защиты. NL Улучшает и runesmith:Усиливает !M! карту в руке.",
+    "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Улучшает и runesmith:Усиливает !M! карты в руке."
   },
   "Runesmith:Refine": {
     "NAME": "Refine",
-    "DESCRIPTION": "runesmith:Enhance a card X times. NL Refund 1.",
-    "UPGRADE_DESCRIPTION": "runesmith:Enhance a card X+1 times. NL Refund 1."
+    "DESCRIPTION": "runesmith:Усиливает карту X раза. NL Возврат 1.",
+    "UPGRADE_DESCRIPTION": "runesmith:Усиливает карту X+1 раза. NL Возврат 1."
   },
   "Runesmith:Permafrost": {
     "NAME": "Permafrost",
@@ -262,11 +263,11 @@
   "Runesmith:Reinforce": {
     "NAME": "Укрепить",
     "DESCRIPTION": "Вы берёте !M! карту. NL Улучшает ВСЕ карты в руке. NL Сжигается.",
-    "UPGRADE_DESCRIPTION": "Draw !M! card. NL Upgrade and runesmith:Enhance all cards in your hand. NL Exhaust."
+    "UPGRADE_DESCRIPTION": "Вы берёте !M! карту. NL Улучшает и runesmith:Усиливает все карты в руке. NL Сжигается."
   },
   "Runesmith:HeatExchange": {
     "NAME": "Heat Exchange",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL This card gains !M! additional damage for each of your runesmith:Ignis. NL Lose 1 runesmith:Ignis.",
+    "DESCRIPTION": "Наносит !D! урона ВСЕМ врагам. NL This card gains !M! additional damage for each of your runesmith:Ignis. NL Lose 1 runesmith:Ignis.",
     "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL This card gains !M! additional damage for each of your runesmith:Ignis. NL Lose 1 runesmith:Ignis."
   },
   "Runesmith:PoweredAnvil": {
@@ -276,21 +277,21 @@
   },
   "Runesmith:Malloc": {
     "NAME": "Malloc",
-    "DESCRIPTION": "runesmith:Downgrade a card in your hand. NL If the card is Upgraded, gain [E]. NL Draw !M! card for each level of runesmith:Enhancement.",
+    "DESCRIPTION": "runesmith:Ухудшает карту в руке. NL If the card is Upgraded, gain [E]. NL Вы берёте !M! карту for each level of runesmith:Enhancement.",
     "UPGRADE_DESCRIPTION": "runesmith:Downgrade a card in your hand. NL If the card is Upgraded, gain [E] [E]. NL Draw !M! card for each level of runesmith:Enhancement."
   },
   "Runesmith:BackupBattery": {
     "NAME": "Backup Battery",
-    "DESCRIPTION": "Даёт !M! of each runesmith:Element. NL Вы берёте 1 карту. NL Can be Upgraded 4 times. NL Сжигается."
+    "DESCRIPTION": "Даёт !M! каждого runesmith:Элемента. NL Вы берёте 1 карту. NL Можно Улучшать 4 раза. NL Сжигается."
   },
   "Runesmith:FrozenChisel": {
     "NAME": "Frozen Chisel",
-    "DESCRIPTION": "Наносит !D! урона. NL Накладывает 1 Замедления. NL Накладывает !M! runesmith:Ice-Cold. NL Даёт 1 runesmith:Terra and 1 runesmith:Aqua."
+    "DESCRIPTION": "Наносит !D! урона. NL Накладывает 1 Замедления. NL Накладывает !M! runesmith:Ice-Cold. NL Даёт 1 runesmith:Терру и 1 runesmith:Аквы."
   },
   "Runesmith:Accelerate": {
     "NAME": "Accelerate",
-    "DESCRIPTION": "Даёт !B! Защиты. NL Вы берёте 1 карту. NL runesmith:Break your oldest Rune to draw !M! more card.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw 1 card. NL runesmith:Break your oldest Rune to draw !M! more cards."
+    "DESCRIPTION": "Даёт !B! Защиты. NL Вы берёте 1 карту. NL runesmith:Разбивает your oldest Rune to draw !M! more card.",
+    "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Вы берёте 1 карту. NL runesmith:Разбивает your oldest Rune to draw !M! more cards."
   },
   "Runesmith:NanitesCloud": {
     "NAME": "Nanites Cloud",
@@ -298,7 +299,7 @@
   },
   "Runesmith:Overpower": {
     "NAME": "Подавить",
-    "DESCRIPTION": "Наносит !D! урона. NL runesmith:Downgrade 2 случ. карты в руке."
+    "DESCRIPTION": "Наносит !D! урона. NL runesmith:Ухудшает 2 случ. карты в руке."
   },
   "Runesmith:HammerAndChisel": {
     "NAME": "Hammer and Chisel",
@@ -307,40 +308,40 @@
   },
   "Runesmith:Firewall": {
     "NAME": "Firewall",
-    "DESCRIPTION": "Gain !B! Block. NL 3 runesmith:Ignis: runesmith:Craft 2 runesmith:Firestone Runes with !RS:Pot! runesmith:Potency."
+    "DESCRIPTION": "Даёт !B! Защиты. NL 3 runesmith:Игнис: runesmith:Создает 2 Руну runesmith:Огнекамня с !RS:Pot! runesmith:Мощи."
   },
   "Runesmith:Discharge": {
     "NAME": "Разряд",
-    "DESCRIPTION": "runesmith:Break your oldest non-Dud Rune to gain !B! Block, deal !D! damage, and runesmith:Craft a runesmith:Dud Rune."
+    "DESCRIPTION": "runesmith:Разбивает your oldest non-Dud Rune to gain !B! Block, deal !D! damage, and runesmith:Craft a runesmith:Dud Rune."
   },
   "Runesmith:Attraction": {
-    "NAME": "Attraction",
-    "DESCRIPTION": "Put !M! runesmith:Craft card from draw or discard pile into your hand. NL Exhaust."
+    "NAME": "Притяжения",
+    "DESCRIPTION": "Кладёт !M! карт(ы) runesmith:Создания из стопки добора или стопки сброса в руку. NL Сжигается."
   },
   "Runesmith:ArcReactor": {
-    "NAME": "Arc Reactor",
-    "DESCRIPTION": "Gain !M! runesmith:Potency. NL At the start of your turn, gain 1 runesmith:Potency. NL Whenever you runesmith:Craft a Rune, lose 2 runesmith:Potency."
+    "NAME": "Дуговый реактор",
+    "DESCRIPTION": "Даёт !M! runesmith:Мощи. NL Даёт 1 runesmith:Мощи в начале каждого вашего хода. NL Отнимает 2 runesmith:Мощи, когда вы runesmith:Создаете Руну."
   },
   "Runesmith:ReplicatingBarrier": {
     "NAME": "Replicating Barrier",
-    "DESCRIPTION": "2 runesmith:Terra: runesmith:Craft a runesmith:Protectio Rune with !RS:Pot! runesmith:Potency. NL Every 2 turns, 2 runesmith:Terra: runesmith:Craft a runesmith:Protectio Rune with !RS:Pot! runesmith:Potency."
+    "DESCRIPTION": "2 runesmith:Терра: runesmith:Создает Руну runesmith:Защитио с !RS:Pot! runesmith:Мощи. NL 2 runesmith:Терра: runesmith:Создает Руну runesmith:Защитио с !RS:Pot! runesmith:Мощи каждые 2 хода."
   },
   "Runesmith:Electrocute": {
     "NAME": "Electrocute",
-    "DESCRIPTION": "Deal !D! damage. NL Take !M! damage. NL runesmith:Stasis a card in your draw pile."
+    "DESCRIPTION": "Наносит !D! урона. NL Вы получаете !M! урона. NL runesmith:Stasis a card in your draw pile."
   },
   "Runesmith:FissionHammer": {
     "NAME": "Fission Hammer",
-    "DESCRIPTION": "Deal !D! damage. NL Deal !D! damage to ALL enemies. NL runesmith:Break your oldest Rune twice."
+    "DESCRIPTION": "Наносит !D! урона. NL Наносит !D! урона ВСЕМ врагам. NL runesmith:Разбивает your oldest Rune twice."
   },
   "Runesmith:Augment": {
     "NAME": "Augment",
-    "DESCRIPTION": "Gain !B! Block. NL Lose all runesmith:Aqua. NL Gain 1 Artifact for every 2 runesmith:Aqua lost. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Lose half your runesmith:Aqua. NL Gain 1 Artifact for each runesmith:Aqua lost. NL Exhaust."
+    "DESCRIPTION": "Даёт !B! Защиты. NL Отнимает всю runesmith:Акву. NL Даёт 1 Артефакта за каждые 2 потерянные runesmith:Аквы. NL Сжигается.",
+    "UPGRADE_DESCRIPTION": "Даёт !B! Защиты. NL Отнимает половину runesmith:Аквы. NL Даёт 1 Артефакта за каждую потерянную runesmith:Акву. NL Сжигается."
   },
   "Runesmith:ChargedHammer": {
     "NAME": "Charged Hammer",
-    "DESCRIPTION": "Deal !D! damage. NL Spend !M! random runesmith:Elements and runesmith:Break your oldest runesmith:Dud Rune to runesmith:Craft a random non-Dud Rune."
+    "DESCRIPTION": "Наносит !D! урона. NL Spend !M! random runesmith:Elements and runesmith:Break your oldest runesmith:Dud Rune to runesmith:Craft a random non-Dud Rune."
   },
   "Runesmith:Devolution": {
     "NAME": "Регресс",
@@ -348,22 +349,22 @@
   },
   "Runesmith:CraftObretio": {
     "NAME": "Craft Obretio",
-    "DESCRIPTION": "2 runesmith:Terra 1 runesmith:Aqua: runesmith:Craft an runesmith:Obretio Rune with !RS:Pot! runesmith:Potency. NL Exhaust."
+    "DESCRIPTION": "2 runesmith:Терра 1 runesmith:Аква: runesmith:Создает Руну runesmith:Опутывалио с !RS:Pot! runesmith:Мощи. NL Сжигается."
   },
   "Runesmith:LightningRod": {
     "NAME": "Lightning Rod",
-    "DESCRIPTION": "For !M! turns, you lose runesmith:Elements instead of HP. Gain 2 of each runesmith:Element."
+    "DESCRIPTION": "For !M! turns, you lose runesmith:Elements instead of HP. Даёт 2 каждого runesmith:Элемента."
   },
   "Runesmith:NegativeSpace": {
-    "NAME": "Negative Space",
-    "DESCRIPTION": "Gain !B! Block, reduced by 2 Block for each active Rune. NL Deal !D! damage for each active Rune."
+    "NAME": "Негативное пространство",
+    "DESCRIPTION": "Даёт !B! Защиты, уменьшается на 2 за каждую активную Руну. NL Наносит !D! урона за каждую активную Руну."
   },
   "Runesmith:Superposition": {
     "NAME": "Суперпозиция",
-    "DESCRIPTION": "Наносит !D! урона. NL runesmith:Break your oldest Rune to gain !B! Block."
+    "DESCRIPTION": "Наносит !D! урона. NL runesmith:Разбивает старейшую Руну, чтобы дать !B! Защиты."
   },
   "Runesmith:CraftVitae": {
-    "NAME": "Craft Vitae",
-    "DESCRIPTION": "1 runesmith:Игнис 2 runesmith:Терра: runesmith:Создает  runesmith:Vitae Rune with !RS:Pot! runesmith:Potency."
+    "NAME": "Создать Жизняку",
+    "DESCRIPTION": "1 runesmith:Игнис 2 runesmith:Терра: runesmith:Создает Руну runesmith:Жизняка с !RS:Pot! runesmith:Мощи."
   }
 }

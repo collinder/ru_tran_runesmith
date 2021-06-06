@@ -1,96 +1,96 @@
 {
   "Runesmith:FortifyAction": {
     "TEXT": [
-      "Enhance"
+      "Усилить"
     ]
   },
   "Runesmith:DowngradeAction": {
     "TEXT": [
-      "Downgrade"
+      "Ухудшить"
     ]
   },
   "Runesmith:StasisAction": {
     "TEXT": [
-      "Stasis"
+      "Застазисить"
     ]
   },
   "Runesmith:CardEnhanced": {
     "TEXT": [
-      "runesmith:Enhanced",
-      "Enhanced"
+      "runesmith:Усиленная",
+      "Усиленная"
     ]
   },
   "Runesmith:CardStasis": {
     "TEXT": [
-      "runesmith:Stasis"
+      "runesmith:Стазис"
     ]
   },
   "Runesmith:DoubleUpAction": {
     "TEXT": [
-      "Upgrade and Enhance"
+      "Улучшить и усилить"
     ]
   },
   "Runesmith:StasisCardInDeckAction": {
     "TEXT": [
-      "Stasis a Card"
+      "Застазисить карту"
     ]
   },
   "Runesmith:IgnisElement": {
     "TEXT": [
-      "Ignis",
-      "Your current #yIgnis count. NL Can be spent to craft runes."
+      "Игнис",
+      "Ваше текущее количество #yИгниса. NL Его можно тратить для создания Рун."
     ]
   },
   "Runesmith:TerraElement": {
     "TEXT": [
-      "Terra",
-      "Your current #yTerra count. NL Can be spent to craft runes."
+      "Терра",
+      "Ваше текущее количество #yТерры. NL Её можно тратить для создания Рун."
     ]
   },
   "Runesmith:AquaElement": {
     "TEXT": [
-      "Aqua",
-      "Your current #yAqua count. NL Can be spent to craft runes."
+      "Аква",
+      "Ваше текущее количество #yАквы. NL Её можно тратить для создания Рун."
     ]
   },
   "Runesmith:CraftPrismatica": {
     "TEXT": [
-      "Prismatica",
-      "Prismatica+",
-      "Rune: Add a random class card to your hand at the start of your turn. The card costs 0 for the turn.",
-      "Rune: Add a random upgraded class card to your hand at the start of your turn. The card costs 0 for the turn."
+      "Призматико",
+      "Призмятика+",
+      "Руна: Добавляет в руку случайную карту персонажа в начале вашего хода. Карта стоит 0 до конца хода.",
+      "Руна: Добавляет в руку случайную Улучшенную карту персонажа в начале вашего хода. Карта стоит 0 до конца хода."
     ]
   },
   "Runesmith:CraftReservo": {
     "TEXT": [
-      "Reservo",
-      "Reservo+",
-      "Rune: #yRetain a card.",
-      "Rune: #yRetain 2 cards."
+      "Резервио",
+      "Резервио+",
+      "Руна: #y Оставляет карту.",
+      "Руна: #yОставляет 2 карты."
     ]
   },
   "Runesmith:CraftIndustria": {
     "TEXT": [
-      "Industria",
-      "Industria+",
-      "Rune: Gain [E] at the start of your turn.",
-      "Rune: Gain [E] and draw 1 card at the start of your turn."
+      "Индустрия",
+      "Индустрия+",
+      "Руна: Даёт [E] в начале вашего хода.",
+      "Руна: Дайт [E] и вы берёте 1 карту в начале вашего хода."
     ]
   },
   "Runesmith:Craftable": {
     "TEXT": [
-      "Craftable"
+      "Доступная"
     ]
   },
   "Runesmith:ShiftingStrike": {
     "TEXT": [
-      "remove Enhancement",
-      "add Enhancement"
+      "убрать Усиление",
+      "добавить Усиление"
     ]
   },
   "Runesmith:OptionsMenu": {
     "TEXT": [
-      "Enable Runesmith relics in non-Runesmith classes."
+      "Включить реликвии Руниста у других персонажей."
     ]
   }
 }
