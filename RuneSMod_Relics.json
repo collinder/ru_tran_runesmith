@@ -1,35 +1,35 @@
 {
   "Runesmith:BrokenRuby": {
-    "NAME": "Broken Ruby",
-    "FLAVOR": "A crystal that resembles a red gem. Although it is broken, faint energy still remains.",
+    "NAME": "Разбитый рубин",
+    "FLAVOR": "Кристалл, напоминующий красный самоцевет. Хотя он сломан, в нем ещё остается слабеющая энергия.",
     "DESCRIPTIONS": [
-      "At the start of each combat, gain #b2 #yrunesmith:Ignis. NL At the start of your turn, #yEnhance a random card in your hand."
+      "Даёт #b2 #yrunesmith:Игниса в начале боя. NL #yУсиливает случайную карту в руке в начале вашего хода."
     ]
   },
   "Runesmith:MiniCore": {
     "NAME": "Миниядро",
-    "FLAVOR": "This peculiar orb was once used as an energy storage.",
+    "FLAVOR": "Эта особенная сфера когда-то использовалась в качестве хранилища энергии.",
     "DESCRIPTIONS": [
       "Даёт 1 #yrunesmith:Мощи в начале боя."
     ]
   },
   "Runesmith:Nanobots": {
     "NAME": "Наноботы",
-    "FLAVOR": "\"These tiny machines have wondrous properties.\" -Ranwid",
+    "FLAVOR": "\"Эти крохотные магины имеют удвивительные свойства.\" -Рунвид",
     "DESCRIPTIONS": [
-      "At the start of combat, #yrunesmith:Усиливает все карты в руке в начале боя."
+      "#yrunesmith:Усиливает все карты в руке в начале боя."
     ]
   },
   "Runesmith:UraniumAnvil": {
     "NAME": "Урановая наковальня",
     "FLAVOR": "Этот кусок металла заключает в себе огромное количество энергии, но ослабляет всех, кто находится рядом.",
     "DESCRIPTIONS": [
-      " at the start of your turn. #yrunesmith:Downgrade a random card in your draw pile, hand, or discard pile each turn.",
-      "Gain [E]"
+      " в начале вашего хода. #yrunesmith:Ухудшает случайную карту в стопке добора, руке, или стопке сброса в начале вашего хода.",
+      "Даёт [E]"
     ]
   },
   "Runesmith:Locket": {
-    "NAME": "Locket",
+    "NAME": "Медальон",
     "FLAVOR": "An image of unknown yet familiar figure resides within.",
     "DESCRIPTIONS": [
       "One time each combat, if your health drops below #b15%, #yUpgrade and #yrunesmith:Enhance ALL your cards for the rest of combat."

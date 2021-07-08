@@ -130,7 +130,8 @@
     {
       "PROPER_NAME": "Распад",
       "NAMES": [
-        "распадется"
+          "распадется",
+          "распада"
       ],
       "DESCRIPTION": "Отнимает весь выбранный #yЭлемент, потом даёт других #yЭлементов equals to the amount lost and perform certain action depending on the #yElement chosen."
     },
